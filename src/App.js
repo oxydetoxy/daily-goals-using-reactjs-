@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Homepage from './My components/homepage'; 
-import Header from './My components/header';
+import Homepage from './components/homepage'; 
+import Header from './components/header';
 
 function Component({ name }) {
   return <span>{name}</span>;
@@ -9,8 +9,8 @@ function Component({ name }) {
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className='mainclass' >
+      <Header /> 
       <Homepage />
     </div>
   );
