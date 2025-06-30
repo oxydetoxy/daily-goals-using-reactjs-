@@ -12,6 +12,18 @@
     font-size: 50px;
 
 }
+.header {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+}
+
+
+
 
 body {
     background-color: cadetblue;
@@ -88,4 +100,24 @@ textarea {
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: red; 
+}
+.userName{
+    width: 100%;
+    height: 50vh;
+    background-color: coral; 
 }

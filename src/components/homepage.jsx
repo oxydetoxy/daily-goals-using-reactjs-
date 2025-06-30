@@ -33,7 +33,7 @@ const Homepage = () => {
     settasks(filteredArray);
   };
 
-  console.log(task, description);
+  
   return (
     <div className="home">
       <form onSubmit={submitHandler}>
